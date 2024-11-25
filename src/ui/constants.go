@@ -8,3 +8,6 @@ var windowWidth int = 800
 
 // Window Height
 var windowHeight int = 600
+
+// Search Field Title
+var searchFieldPlaceholder string = "Search..."
