@@ -1,11 +1,14 @@
 package main
 
 import (
-	"os"
-	"JustGithubProject/GUI-Weather-Forecast/src/ui"
+	// "os"
+	"log"
+	// "JustGithubProject/GUI-Weather-Forecast/src/ui"
+	"JustGithubProject/GUI-Weather-Forecast/src/weather"
 )
 
 
 func main() {
-	ui.RunWindow(len(os.Args), os.Args)
+	// ui.RunWindow(len(os.Args), os.Args)
+	log.Println(weather.FetchWeatherForecastByCity("Kair"))
 }
